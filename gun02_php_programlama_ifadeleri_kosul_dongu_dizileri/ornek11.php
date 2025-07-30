@@ -1,0 +1,30 @@
+<?php 
+// while düngüsü
+// Bir koşul doğru olduğu sürece kod bloğunu çalıştırır.
+/*
+while (koşul) {
+    // Koşul doğru olduğu sürece çalışacak kod
+}
+*/
+
+ echo"while döngüsü";
+ echo "<br>";
+$i = 1;
+while ($i <= 5) {
+    echo "Sayı: $i <br>";
+    $i++;
+}
+
+echo "<hr>";
+
+echo "<table border=1>";
+
+$i = 1;
+while ($i <= 5) {
+    echo "<tr><td>Sayı: $i </td></tr>";
+    $i++;
+}
+
+echo "</table>";
+
+?>
