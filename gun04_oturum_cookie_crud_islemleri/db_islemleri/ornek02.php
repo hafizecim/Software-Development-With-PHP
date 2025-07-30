@@ -6,6 +6,7 @@ include 'ornek01.php';
 
 $sql = "INSERT INTO kursiyerler (ad, email, durum) VALUES ('Ayşe', 'ayse@example.com',1)";
 if ($baglanti->query($sql) === TRUE) {
+    echo "<br>";
     echo "Kayıt başarıyla eklendi.";
 } else {
     echo "Hata: " . $baglanti->error;

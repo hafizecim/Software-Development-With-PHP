@@ -9,6 +9,7 @@ $sonuc = $baglanti->query($sql);
 
 if ($sonuc->num_rows > 0) {
     while($satir = $sonuc->fetch_assoc()) {
+        echo "<br>";
         echo "ID: " . $satir["id"]. " - Ad: " . $satir["ad"]. " - Email: " . $satir["email"]. "<br>";
     }
 } else {

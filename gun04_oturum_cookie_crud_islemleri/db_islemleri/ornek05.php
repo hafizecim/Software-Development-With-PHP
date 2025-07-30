@@ -6,6 +6,7 @@ include 'ornek01.php';
 /*
 $sql = "DELETE FROM kursiyerler WHERE id=1";
 if ($baglanti->query($sql) === TRUE) {
+    echo "<br>";
     echo "Kayıt silindi.";
 } else {
     echo "Hata: " . $baglanti->error;
